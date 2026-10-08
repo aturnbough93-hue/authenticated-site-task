@@ -1,0 +1,8 @@
+{
+  "skill": "authenticated-site-task",
+  "test_cases": [
+    {"input": "Go to this URL, use my account, gather the relevant files, and finish the report", "should_trigger": true},
+    {"input": "What is a 401k match and how does vesting usually work?", "should_trigger": false},
+    {"input": "Store this password in memory for next time", "should_trigger": false}
+  ]
+}

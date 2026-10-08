@@ -1,0 +1,14 @@
+{
+  "skill": "authenticated-site-task",
+  "test_cases": [
+    {
+      "name": "skip_completed_week",
+      "input": "Use the site task skill on my SNHU IDS 104 course and finish the remaining assignments.",
+      "assertions": [
+        "Reads references/run-book.md before collecting",
+        "Does not redo week 6, 6-1, or the 6-2 Expert Evaluator activity",
+        "Continues with Module 7 and Module 8 only"
+      ]
+    }
+  ]
+}
